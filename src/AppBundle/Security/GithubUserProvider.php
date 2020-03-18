@@ -19,6 +19,7 @@ class GithubUserProvider implements UserProviderInterface
         $this->client = $client;
         $this->serializer = $serializer;
     }
+    
 
     public function loadUserByUsername($username)
     {
